@@ -1,0 +1,23 @@
+{
+  "name": "get-participants",
+  "version": "1.0.0",
+  "description": "Get all participants in a given issue or pull request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvanBoxel/get-participants.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvanBoxel/get-participants/issues"
+  },
+  "homepage": "https://github.com/SvanBoxel/get-participants#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+name: 'List Participants'
+description: 'List all participants in a given issue or pull request'
+inputs:
+  reviewers:
+    description: 'Whether to include reviewers'
+    required: false
+    default: true
+  assignees:
+    description: 'Whether to include assignees'
+    required: false
+    default: true
+  author:
+    description: 'Whether to include author'
+    required: false
+    default: true
+  commenters:
+    description: 'Whether to include commenters'
+    required: false
+    default: true
+outputs:
+  participants: # id of output
+    description: 'List of participants'
+runs:
+  using: 'node12'
+  main: 'index.js'
