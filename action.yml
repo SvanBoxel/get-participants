@@ -1,6 +1,9 @@
 name: 'List Participants'
 description: 'List all participants in a given issue or pull request'
 inputs:
+  issue-number:
+    description: 'Issue number'
+    required: true
   reviewers:
     description: 'Whether to include reviewers'
     required: false
